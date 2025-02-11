@@ -1,6 +1,6 @@
 pipeline{
 	agent{
-		label = 'EC2-Agent'
+		label 'EC2-Agent'
 	}
 	stages{
 		stage('git checkout'){
