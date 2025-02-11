@@ -18,7 +18,7 @@ pipeline{
 				sh 'docker-compose up -d'
 			}
 		}
-		stage('clean docker'){
+		stage('docker clean'){
                         steps{
                                 sh 'echo y | docker system prune -a'
                         }
