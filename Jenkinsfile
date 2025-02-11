@@ -8,6 +8,10 @@ pipeline{
 				git 'https://github.com/siddudev/Java-App.git'
 			}
 		}
+		stage('stop running containers'){
+			steps{
+				sh 'docker-compose down'
+			}
 		stage('clean docker'){
 			steps{
 				sh 'echo y | docker system prune -a'
