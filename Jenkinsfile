@@ -10,7 +10,7 @@ pipeline{
 		}
 		stage('stop running containers'){
 			steps{
-				sh 'docker-compose down'
+				sh 'docker-compose stop'
 			}
 		}
 		stage('clean docker'){
