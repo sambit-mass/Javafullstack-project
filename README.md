@@ -1,7 +1,8 @@
 ======================== DEPLOY JAVA-FULL-STACK-APP ==========================
 
-localhost:3000
-localhost:9090/api/employees
+fro == localhost:3000
+
+bak == localhost:9090/api/employees
 
 ==============USING TOOLS==================
 1. GIT
